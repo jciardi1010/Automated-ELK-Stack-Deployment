@@ -43,12 +43,13 @@ Machines within the network can only be accessed by the jump box.
 Jump Box 10.1.0.4
 
 A summary of the access policies in place can be found in the table below.
-Name             Publicly Accessible    Allowed IP addresses
-Jump Box         No                     Personal Public IP (Port 22)
-DVWA1            No                     10.1.0.4 (Port 22), 138.91.73.244
-DVWA2            No                     10.1.0.4 (Port 22), 138.91.73.244
-ELK Server       No                     104.42.169.126 (Port 22), Personal Public IP (Port 5601), 104.42.38.81 (Port 5601, 9200)         (cont.)                                  104.42.2.250 (Port 5601, 9200)138.91.73.244 (Port 9200)
-Load Balancer    Yes                    Internet (Port 80)
+| Name            | Publicly Accessible   | Allowed IP addresses                                                                    |
+|-----------------|-----------------------|-----------------------------------------------------------------------------------------|
+| Jump Box        | No                    | Personal Public IP (Port 22)                                                            |
+| DVWA1           | No                    | 10.1.0.4 (Port 22), 138.91.73.244                                                       |
+| DVWA2           | No                    | 10.1.0.4 (Port 22), 138.91.73.244                                                       |
+| ELK Server      | No                    | 104.42.169.126 (Port 22), Personal Public IP (Port 5601), 104.42.38.81 (Port 5601, 9200)|   |    (cont.)                                 104.42.2.250 (Port 5601, 9200)138.91.73.244 (Port 9200)                                 |
+| Load Balancer   | Yes                   | Internet (Port 80)                                                                      |
 
 ### Elk Configuration
 
