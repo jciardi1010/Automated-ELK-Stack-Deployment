@@ -24,11 +24,12 @@ Load balancing ensures that the application will be highly stable, in addition t
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and files via Filebeat and system and service statistics via Metricbeat.
 
 The configuration details of each machine may be found below.
-Name        Function           Public IP       Private IP  Operating System
-Jump Box    Gateway            104.42.169.126  10.1.0.4    Linux/Ubuntu
-DVWA1       Web App            104.42.38.81    10.1.0.5    Linux/Ubuntu
-DVWA2       Web App            104.42.2.250    10.1.0.7    Linux/Ubuntu
-ELK Server  Monitoring Server  168.62.176.251  10.0.0.4    Linux/Ubuntu
+| Name       | Function          | Public IP       | Private IP  | Operating System|
+|------------|-------------------|-----------------|-------------|-----------------|
+| Jump Box   | Gateway           | 104.42.169.126  | 10.1.0.4    | Linux/Ubuntu    | 
+| DVWA1      | Web App           | 104.42.38.81    | 10.1.0.5    | Linux/Ubuntu    |
+| DVWA2      | Web App           | 104.42.2.250    | 10.1.0.7    | Linux/Ubuntu    |
+| ELK Server | Monitoring Server | 168.62.176.251  | 10.0.0.4    | Linux/Ubuntu    |
 
 ### Access Policies
 
