@@ -36,8 +36,9 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the load balancer can accept connections from the Internet. Access to this machine is only allowed from the VM’s on my virtual network. In this scenario, that would be:
-DVWA-VM1 10.1.0.5
-DVWA-VM2 10.1.0.7
+
+|DVWA-VM1---|---10.1.0.5|
+|DVWA-VM2   |   10.1.0.7|
 
 Machines within the network can only be accessed by the jump box.
 Jump Box 10.1.0.4
