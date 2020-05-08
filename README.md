@@ -87,7 +87,7 @@ SSH into the control node and follow the steps below:
 - Copy the install-elk.yml file to the /etc/ansible folder.
 - Copy the filebeatconfig.yml file to the /etc/ansible/files folder. Be sure to have the IP addresses in this file set to your ELK server public IP and port 5601.
 - Copy the filebeatplaybook.yml file to the /etc/ansible/roles folder.
-- Update the /etc/ansible/hosts file to include a webservers section and an ELK servers section. From here, edit this file to include the IP addresses of the respective VM’s. In this scenario, I’ve added the 2 DVWA VM IP addresses under “webservers” and the ELK server IP address under “elkservers”. (See below):
+- Update the /etc/ansible/hosts file to include a webservers section and an ELK servers section. From here, edit this file to include the IP addresses of the respective VM’s. In this scenario, I’ve added the 2 DVWA VM IP addresses under “webservers” and the ELK server IP address under “elkservers”.
 
 - Run the filebeatplaybook.yml file in the https://github.com/jciardi1010/Automated-ELK-Stack-Deployment/tree/master/Ansible folder to install Filebeats on your webservers.
 - Run the Install-elk.yml playbook, and navigate to the ELK server public IP in your web browser address bar (including the port), in my case that would be http://168.62.176.251:5601/, to check that the installation worked as expected.
